@@ -15,13 +15,17 @@ public class C03_ifElseif {
         String operator= scan.next();
         if (operator.equals("+")){
             System.out.println("sayilarin toplami : "+(sayi1+sayi2));
-        } else if (operator.equals("*")) {
+        }
+        else if (operator.equals("*")) {
             System.out.println("sayilarin carpimi : "+sayi1*sayi2);
-        } else if (operator.equals("/")) {
+        }
+        else if (operator.equals("/")) {
             System.out.println("sayilarin bolumu : "+sayi1/sayi2);
-        } else if (operator.equals("-")) {
+        }
+        else if (operator.equals("-")) {
             System.out.println("sayilarin farki : "+(sayi1-sayi2));
-        }else System.out.println("lutfen duzgun bir operator giriniz");
+        }
+        else System.out.println("lutfen duzgun bir operator giriniz");
 
     }
 }

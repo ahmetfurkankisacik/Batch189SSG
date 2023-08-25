@@ -23,7 +23,7 @@ public class C02_ifElseif {
        //     System.out.println("notunuz A");
        // }else System.out.println("lutfen notunuzu duzgun giriniz");
 
-    if (not>100||not<0){
+    if (not>100||not<0){//== ya da equals methodu kullanarak switch'teki her seyi burada yapabilirim
         System.out.println("lutfen notunuzu duzgun giriniz");
     } else if (not>=80) {
         System.out.println("notunuz : A");
