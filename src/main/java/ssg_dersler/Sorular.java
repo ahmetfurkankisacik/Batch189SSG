@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Sorular {
-
+//burasi ogrencilerin sordugu sorularin bulundugu kısım cok onemli degil :)
 
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
